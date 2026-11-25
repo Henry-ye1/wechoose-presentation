@@ -1,0 +1,992 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f9f5ea">
+<title>WeChoose · Presentation</title>
+<link rel="stylesheet" href="styles.css?v=31-two-brand-bookings">
+<script src="presentation.js?v=25-1-5-base" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#cover">Skip to slides</a>
+<header class="controls">
+  <div class="controls-inner">
+    <a class="brand" href="#cover" aria-label="WeChoose, go to cover"><img src="assets/wechoose-final.png" width="2208" height="382" alt="WeChoose"></a>
+    <nav class="slide-nav" aria-label="Slides">
+      <a href="#cover" aria-current="page" aria-label="Slide 1: Cover">Cover</a>
+      <a href="#why" aria-label="Slide 2: Why WeChoose">Why WeChoose</a>
+      <a href="#research" aria-label="Slide 3: Research">Research</a>
+      <a href="#persona" aria-label="Slide 4: Persona">Persona</a>
+      <a href="#value" aria-label="Slide 5: Value proposition">Value</a>
+      <a href="#experience" aria-label="Slide 6: In-store flow">In-store flow</a>
+      <a href="#journey" aria-label="Slide 7: User journey">Journey</a>
+      <a href="#story" aria-label="Slide 8: Storyboard">Storyboard</a>
+      <a href="#games" aria-label="Slide 9: Games">Games</a>
+      <a href="#savings" aria-label="Slide 10: Savings and dice">Savings</a>
+      <a href="#purchase" aria-label="Slide 11: Purchase and exit">Checkout</a>
+      <a href="#system" aria-label="Slide 12: Service system">System</a>
+      <a href="#business" aria-label="Slide 13: Monthly economics">Business</a>
+      <a href="#closing" aria-label="Slide 14: Closing">Closing</a>
+    </nav>
+    <div class="actions">
+      <button id="fullscreen" type="button" aria-label="Enter full screen" title="Full screen">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg>
+      </button>
+      <button id="print" type="button">Save PDF</button>
+    </div>
+  </div>
+</header>
+
+<main id="deck" aria-label="WeChoose presentation">
+  <section class="stage" id="cover" aria-labelledby="title-cover">
+    <article class="slide cover">
+      <div class="cover-copy enter">
+        <p class="eyebrow course">Furniture-Mediated<br>Service Systems Design</p>
+        <img class="cover-logo" src="assets/wechoose-final.png" width="2208" height="382" alt="WeChoose">
+        <h1 id="title-cover">Game, Set,<br><em>Snack!</em></h1>
+        <p class="cover-deck">A supermarket challenge for two friends.</p>
+      </div>
+      <figure class="hero enter">
+        <div class="hero-mat" aria-hidden="true"></div>
+        <img src="assets/miniature-friends.webp" alt="Two hand-painted miniature friends play at a snack shelf, one showing a phone clue and the other picking up popcorn" fetchpriority="high" width="1320" height="880">
+      </figure>
+    </article>
+  </section>
+
+  <section class="stage" id="why" aria-labelledby="title-why">
+    <article class="slide why">
+      <div class="why-copy enter">
+        <p class="eyebrow section-name"><span></span> Why WeChoose</p>
+        <h2 id="title-why">What should<br>we do <em>today?</em></h2>
+        <p class="lead">We noticed that when friends make plans, they often come back to the same few activities.</p>
+      </div>
+      <div class="invitation enter">
+        <p class="invitation-intro">The usual plans</p>
+        <div class="old-plans" aria-label="Examples of familiar outings">
+          <span>Coffee</span><span>A movie</span><span>Dinner</span>
+        </div>
+        <div class="question-card">
+          <span class="question-mark" aria-hidden="true">?</span>
+          <p>Could a supermarket trip become something friends <strong>plan to do together?</strong></p>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <section class="stage" id="research" aria-labelledby="title-research">
+    <article class="slide research">
+      <header class="research-head enter">
+        <p class="eyebrow section-name"><span></span> Design research</p>
+        <h2 id="title-research">A product can start <em>a conversation.</em></h2>
+      </header>
+      <div class="research-grid enter">
+        <section class="fieldwork" aria-labelledby="interviews">
+          <h3 id="interviews">Our interviews</h3>
+          <div class="metrics">
+            <p><strong>3</strong><span>friend pairs</span></p>
+            <p><strong>6</strong><span>participants</span></p>
+          </div>
+          <p>Friends used products to bring up shared references and personal preferences. Whether they bought anything still came down to what they wanted.</p>
+        </section>
+        <section class="external-case" aria-labelledby="example">
+          <div class="case-copy">
+            <h3 id="example">A reported example</h3>
+            <p class="case-title">A close-up becomes a clue.</p>
+            <p>Friends exchanged close-up photos of products, then searched the supermarket shelves for a match.</p>
+            <p class="credit"><a href="https://finance.sina.cn/2023-09-12/detail-imzmnkqe4889911.d.html">New Weekly, 2023 ↗</a></p>
+          </div>
+          <img src="assets/shelf-game-case.jpg" width="624" height="1080" alt="Social media posts about supermarket games reproduced by New Weekly">
+        </section>
+      </div>
+      <p class="takeaway enter"><strong>Design opportunity</strong> Give friends a reason to compare choices and talk while they browse.</p>
+    </article>
+  </section>
+
+  <section class="stage" id="persona" aria-labelledby="title-persona">
+    <article class="slide chapter persona">
+      <div class="chapter-content">
+        <header class="chapter-head enter">
+          <p class="eyebrow section-name"><span></span> Persona &amp; opportunity</p>
+          <h2 id="title-persona">Meet <em>Lin Yue.</em></h2>
+        </header>
+        <div class="persona-layout enter">
+          <figure class="persona-figure">
+            <img src="assets/lin-yue-miniature.webp" width="1000" height="750" alt="Miniature representation of Lin Yue holding up a bag of popcorn in the aisle">
+            <figcaption><strong>The Social Explorer</strong><span>Composite persona</span></figcaption>
+          </figure>
+          <div class="persona-notes">
+            <section>
+              <h3>Observed patterns</h3>
+              <p>Friends sometimes browse without a set list. They stop to point out a snack that fits a friend’s taste or brings up a shared joke.</p>
+              <p>Before buying, they consider whether they want the item and would use it.</p>
+            </section>
+            <section class="persona-opportunity">
+              <h3>Design hypothesis</h3>
+              <p>A short shared challenge could make the supermarket a place friends choose to meet up.</p>
+            </section>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <section class="stage" id="value" aria-labelledby="title-value">
+    <article class="slide chapter value">
+      <div class="chapter-content">
+        <header class="chapter-head enter">
+          <p class="eyebrow section-name"><span></span> Design question</p>
+          <h2 id="title-value">How might we help friends <em>play together while they shop?</em></h2>
+        </header>
+        <section class="promise enter" aria-labelledby="promise-title">
+          <div class="promise-lead">
+            <p class="eyebrow">Value proposition</p>
+            <h3 id="promise-title">A supermarket game for two friends.</h3>
+          </div>
+          <ul class="promise-list" role="list">
+            <li>Try a different kind of outing.</li>
+            <li>Find out what your friend would pick.</li>
+            <li>Save on eligible items you choose to buy.</li>
+          </ul>
+        </section>
+      </div>
+    </article>
+  </section>
+
+  <section class="stage" id="experience" aria-labelledby="title-experience">
+    <article class="slide chapter service-overview">
+      <div class="chapter-content">
+        <header class="chapter-head enter">
+          <p class="eyebrow section-name"><span></span> Service overview</p>
+          <h2 id="title-experience">From phone <em>to shelf to checkout.</em></h2>
+        </header>
+        <img class="service-illustration enter" src="assets/miniature-service.webp" width="1704" height="568" alt="Three connected miniature scenes show paired phones, friends playing at a shelf, and a checkout terminal beside a die">
+        <ul class="service-steps enter" role="list" aria-label="What each touchpoint does">
+          <li>
+            <h3>Phones</h3>
+            <p>Show each player’s prompts and track the discount.</p>
+          </li>
+          <li>
+            <h3>Shelves</h3>
+            <p>Give friends real products to compare, find and scan.</p>
+          </li>
+          <li>
+            <h3>Checkout</h3>
+            <p>Apply savings to the eligible products they keep.</p>
+          </li>
+        </ul>
+      </div>
+    </article>
+  </section>
+
+  <section class="stage" id="journey" aria-labelledby="title-journey">
+    <article class="slide chapter journey-map">
+      <div class="chapter-content">
+        <header class="chapter-head enter">
+          <p class="eyebrow section-name"><span></span> User journey</p>
+          <h2 id="title-journey">A visit, <em>from start to finish.</em></h2>
+        </header>
+        <div class="journey-scroll enter" role="region" aria-label="Journey map from pairing to checkout" tabindex="0">
+          <table class="journey-table" aria-label="Actions, touchpoints and expected feelings across six stages">
+            <colgroup><col class="journey-label-col"><col span="6"></colgroup>
+            <thead>
+              <tr>
+                <th scope="col">Stage</th>
+                <th scope="col">Pair &amp;<br>choose</th>
+                <th scope="col">Pick &amp;<br>guess</th>
+                <th scope="col">Shelf<br>puzzle</th>
+                <th scope="col">Review<br>basket</th>
+                <th scope="col">Keep<br>or roll</th>
+                <th scope="col">Checkout</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Actions</th>
+                <td>Pair with a code. Choose a zone and roles.</td>
+                <td>Pick, scan a guess and reveal together.</td>
+                <td>Combine clues and scan the item that fits both.</td>
+                <td>Check prices. Decide what to keep.</td>
+                <td>Keep the offer or stake some or all of it.</td>
+                <td>Pay for the items you keep and the ¥2 WeChoose fee.</td>
+              </tr>
+              <tr>
+                <th scope="row">Touchpoints</th>
+                <td>Room code<br>Store map</td>
+                <td>Phone prompts<br>Products</td>
+                <td>Clue screens<br>Barcode</td>
+                <td>Basket screen<br>Prices</td>
+                <td>Offer screen<br>Dice</td>
+                <td>Checkout code<br>Till</td>
+              </tr>
+              <tr>
+                <th scope="row">Feelings <small>Expected</small></th>
+                <td colspan="6" class="journey-feelings">
+                  <div class="journey-curve" aria-hidden="true">
+                    <i style="--height:59%"></i><i style="--height:36%"></i><i style="--height:21%"></i>
+                    <i style="--height:77%"></i><i style="--height:40%"></i><i style="--height:51%"></i>
+                  </div>
+                  <div class="journey-emotions">
+                    <span>Curious</span><span>Surprised</span><span>In sync</span>
+                    <span>Deciding</span><span>Anticipating</span><span>Settled</span>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="journey-swipe">Swipe across to see all six stages.</p>
+      </div>
+    </article>
+  </section>
+
+  <section class="stage" id="story" aria-labelledby="title-story">
+    <article class="slide chapter storyboard">
+      <div class="chapter-content">
+        <header class="chapter-head enter">
+          <p class="eyebrow section-name"><span></span> Storyboard</p>
+          <h2 id="title-story">Out for <em>movie snacks.</em></h2>
+        </header>
+        <ol class="story-frames enter" role="list">
+          <li>
+            <img src="assets/story-pair.webp" width="750" height="500" alt="Two miniature friends use their phones at the supermarket entrance">
+            <div>
+              <h3>Start together</h3>
+              <p>Lin and her friend pair their phones and choose the snack aisle.</p>
+            </div>
+          </li>
+          <li>
+            <img src="assets/story-match.webp" width="750" height="500" alt="Lin and her friend share a happy reaction to a matching popcorn guess">
+            <div>
+              <h3>Guess her pick</h3>
+              <p>Her friend guesses popcorn. They reveal the match together.</p>
+            </div>
+          </li>
+          <li>
+            <img src="assets/story-puzzle.webp" width="750" height="500" alt="Both friends compare clues on their phones next to a shortbread box on the shelf">
+            <div>
+              <h3>Solve it together</h3>
+              <p>They combine “sweet” and “made from grains” to find the shortbread.</p>
+            </div>
+          </li>
+          <li>
+            <img src="assets/story-roll.webp" width="750" height="500" alt="The two friends each roll a large foam die onto a play mat beside checkout">
+            <div>
+              <h3>Roll together</h3>
+              <p>They choose to stake part of their offer and roll one die each. A total of 7 or more triples their stake.</p>
+            </div>
+          </li>
+          <li>
+            <img src="assets/story-checkout.webp" width="750" height="500" alt="The two friends check out with the popcorn and shortbread">
+            <div>
+              <h3>Check out</h3>
+              <p>They pay the final price for their snacks and the ¥2 fee for the pair.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </article>
+  </section>
+
+  <section class="stage" id="games" aria-labelledby="title-games">
+    <article class="slide chapter games">
+      <div class="chapter-content">
+        <header class="chapter-head enter">
+          <p class="eyebrow section-name"><span></span> Phone interactions</p>
+          <h2 id="title-games">Pick and guess, <em>then combine clues.</em></h2>
+        </header>
+        <div class="game-panes enter">
+          <section class="game-pane" aria-labelledby="pick-guess-title" data-demo="pick and guess">
+            <div class="demo-heading">
+              <h3 id="pick-guess-title">Pick &amp; Guess</h3>
+              <button class="demo-toggle" type="button" hidden>Play demo</button>
+            </div>
+            <p>One picks from five items. The other scans a guess. Reveal together after three questions.</p>
+            <div class="game-screens">
+              <figure>
+                <figcaption>I’ll pick</figcaption>
+                <div class="phone-media">
+                  <img class="phone-frame" src="assets/v28-movie-night-pick.webp" width="674" height="1448" alt="Picker’s full phone screen, with Popcorn selected and the Lock in button">
+                  <video class="phone-clip" src="assets/v28-movie-night-pick.mp4" poster="assets/v28-movie-night-pick.webp" muted playsinline loop preload="none" aria-hidden="true"></video>
+                </div>
+              </figure>
+              <figure>
+                <figcaption>I’ll guess</figcaption>
+                <div class="phone-media">
+                  <img class="phone-frame" src="assets/v28-movie-night-guess.webp" width="674" height="1448" alt="Guesser’s full phone screen, with Popcorn selected and the Scan and submit button">
+                  <video class="phone-clip" src="assets/v28-movie-night-guess.mp4" poster="assets/v28-movie-night-guess.webp" muted playsinline loop preload="none" aria-hidden="true"></video>
+                </div>
+              </figure>
+            </div>
+          </section>
+          <section class="game-pane" aria-labelledby="shelf-puzzle-title" data-demo="shelf puzzle">
+            <div class="demo-heading">
+              <h3 id="shelf-puzzle-title">Shelf Puzzle</h3>
+              <button class="demo-toggle" type="button" hidden>Play demo</button>
+            </div>
+            <p>Share the clue on each phone, then find and scan the match within 60 seconds.</p>
+            <div class="game-screens">
+              <figure>
+                <figcaption>Clue on phone A</figcaption>
+                <div class="phone-media">
+                  <img class="phone-frame" src="assets/v28-shelf-puzzle-clue-a.webp" width="674" height="1448" alt="Full Shelf Puzzle screen for phone A, with the clue I’m a sweet snack and a one-minute timer">
+                  <video class="phone-clip" src="assets/v28-shelf-puzzle-clue-a.mp4" poster="assets/v28-shelf-puzzle-clue-a.webp" muted playsinline loop preload="none" aria-hidden="true"></video>
+                </div>
+              </figure>
+              <figure>
+                <figcaption>Clue on phone B</figcaption>
+                <div class="phone-media">
+                  <img class="phone-frame" src="assets/v28-shelf-puzzle-clue-b.webp" width="674" height="1448" alt="Full Shelf Puzzle screen for phone B, with the clue I’m made from grains and a one-minute timer">
+                  <video class="phone-clip" src="assets/v28-shelf-puzzle-clue-b.mp4" poster="assets/v28-shelf-puzzle-clue-b.webp" muted playsinline loop preload="none" aria-hidden="true"></video>
+                </div>
+              </figure>
+            </div>
+          </section>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <section class="stage" id="savings" aria-labelledby="title-savings">
+    <article class="slide chapter savings" data-demo="dice challenge">
+      <div class="chapter-content">
+        <header class="chapter-head enter">
+          <div class="demo-heading">
+            <p class="eyebrow section-name"><span></span> Savings &amp; dice</p>
+            <button class="demo-toggle" type="button" hidden>Play demo</button>
+          </div>
+          <h2 id="title-savings">Keep your savings, <em>or roll?</em></h2>
+        </header>
+        <div class="savings-layout enter">
+          <figure class="savings-phone">
+            <div class="phone-media">
+              <img class="phone-frame" src="assets/v28-keep-or-roll.webp" width="674" height="1448" alt="Full Dice Challenge phone screen. Stake half is selected at 29 percentage points. The player can continue or keep 58% off.">
+              <video class="phone-clip" src="assets/v28-keep-or-roll.mp4" poster="assets/v28-keep-or-roll.webp" muted playsinline loop preload="none" aria-hidden="true"></video>
+            </div>
+          </figure>
+          <div class="savings-details">
+            <section class="stake-example" aria-label="How the earned discount is split">
+              <div>
+                <p class="eyebrow">Earned discount</p>
+                <p class="earned-rate">58% <span>off</span></p>
+                <p class="earned-detail"><strong>+36</strong> Three matches<br><strong>+22</strong> Shelf puzzle</p>
+              </div>
+              <div>
+                <p class="eyebrow">Stake half</p>
+                <div class="discount-split" role="group" aria-label="Keep 29 percentage points and stake 29 percentage points">
+                  <div><strong>29 pts</strong><span>Kept</span></div>
+                  <div><strong>29 pts</strong><span>Staked</span></div>
+                </div>
+                <p class="dice-rule">Roll one die each. A total of <strong>7+</strong> triples the stake.<br><strong>2–6</strong> loses the stake.</p>
+              </div>
+            </section>
+            <section class="offer-compare" aria-labelledby="demo-basket-title">
+              <div class="offer-basket">
+                <div><p class="eyebrow">Demo basket</p><h3 id="demo-basket-title">Popcorn + shortbread</h3></div>
+                <p class="basket-original"><strong>¥33.80</strong><span>Before discount</span></p>
+              </div>
+              <table class="offer-table" aria-label="Three checkout outcomes for the demo basket">
+                <thead>
+                  <tr><th scope="col">Result</th><th scope="col">Discount</th><th scope="col">Items due</th><th scope="col">With fee</th></tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Keep offer</th>
+                    <td class="discount-result">58%<span class="discount-track" style="--discount:58%" aria-hidden="true"></span></td>
+                    <td>¥14.20</td><td>¥16.20</td>
+                  </tr>
+                  <tr class="offer-win">
+                    <th scope="row">Win · 7+</th>
+                    <td class="discount-result">100%<span class="discount-track" style="--discount:100%" aria-hidden="true"></span></td>
+                    <td>¥0.00</td><td>¥2.00</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Miss · 2–6</th>
+                    <td class="discount-result">29%<span class="discount-track" style="--discount:29%" aria-hidden="true"></span></td>
+                    <td>¥24.00</td><td>¥26.00</td>
+                  </tr>
+                </tbody>
+              </table>
+              <p class="offer-note">Eligible items only · ¥2 per pair goes to WeChoose</p>
+            </section>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <section class="stage" id="purchase" aria-labelledby="title-purchase">
+    <article class="slide chapter purchase">
+      <div class="chapter-content">
+        <header class="chapter-head enter">
+          <p class="eyebrow section-name"><span></span> Purchase &amp; exit</p>
+          <h2 id="title-purchase">Choose <em>what to take home.</em></h2>
+        </header>
+        <div class="purchase-layout enter">
+          <figure class="basket-preview">
+            <div class="basket-screen">
+              <img src="assets/movie-night-basket.webp" width="440" height="416" alt="English prototype basket with popcorn and shortbread, the price and savings for each item, and a Put back control">
+              <i class="put-back-mark" aria-hidden="true"></i>
+              <i class="put-back-mark" aria-hidden="true"></i>
+            </div>
+            <figcaption>Prototype basket with its “Put back” controls highlighted</figcaption>
+          </figure>
+          <div class="purchase-flow" role="group" aria-label="From choosing products to the proposed store checkout">
+            <div class="basket-inputs">
+              <span>Picker’s choices</span><b aria-hidden="true">+</b><span>Puzzle item if solved</span>
+            </div>
+            <div class="basket-confirm">
+              <span aria-hidden="true">↓</span>
+              <h3>Confirm what stays</h3>
+              <p>Put back anything you don’t want.</p>
+            </div>
+            <div class="checkout-branches">
+              <section class="checkout-path checkout-with-items">
+                <h3>Keep items</h3>
+                <p>Pay the supermarket for items.</p>
+                <strong>+ ¥2 to WeChoose</strong>
+              </section>
+              <section class="checkout-path">
+                <h3>Empty basket</h3>
+                <p>Finish without buying products.</p>
+                <strong>¥2 to WeChoose</strong>
+              </section>
+            </div>
+            <p class="purchase-note"><strong>Proposed checkout</strong> One bill can include the goods and challenge fee. Both players confirm the basket and stake before rolling.</p>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <section class="stage" id="system" aria-labelledby="title-system">
+    <article class="slide chapter service-system">
+      <div class="chapter-content system-view system-overview" id="system-overview" data-slide-overview>
+        <header class="chapter-head">
+          <p class="eyebrow section-name"><span></span> Service system map</p>
+          <h2 id="title-system">Who makes <em>WeChoose work?</em></h2>
+        </header>
+        <div class="system-grid" role="group" aria-label="Who pays whom and what each partner provides">
+          <section class="system-node system-customers">
+            <img src="assets/map-friends.webp" width="320" height="320" alt="">
+            <div><h3>Customers</h3><p>Shop and play in pairs.</p></div>
+            <button class="system-open" type="button" aria-label="View customer details" aria-controls="system-customer-detail" aria-expanded="false" data-system-open hidden>
+              <span aria-hidden="true">Details ↗</span>
+            </button>
+          </section>
+          <div class="system-customer-flows" role="group" aria-label="Customers pay WeChoose a two-yuan challenge fee per pair. WeChoose provides a game experience and the opportunity to earn discounts.">
+            <div class="system-flow"><span><strong>¥2 per pair</strong>Challenge fee</span><i aria-hidden="true"></i></div>
+            <div class="system-flow system-value"><i aria-hidden="true"></i><span>Game + earned discounts</span></div>
+          </div>
+          <div class="system-goods" role="group" aria-label="Customers pay the supermarket for products">
+            <span class="system-goods-label">Payment for items</span>
+            <span class="system-goods-compact">Customers pay for items at supermarket checkout.</span>
+          </div>
+          <section class="system-node system-brands">
+            <img src="assets/map-brands.webp" width="320" height="320" alt="">
+            <div><h3>Food brands</h3><p>Sponsor an option or a question.</p></div>
+            <button class="system-open" type="button" aria-label="View food brand details" aria-controls="system-brand-detail" aria-expanded="false" data-system-open hidden>
+              <span aria-hidden="true">Details ↗</span>
+            </button>
+          </section>
+          <div class="system-exchange system-brand-flows" role="group" aria-label="Food brands pay WeChoose a placement fee. WeChoose gives products exposure in the game.">
+            <div class="system-flow"><span>Placement fee</span><i aria-hidden="true"></i></div>
+            <div class="system-flow system-value flow-to-left"><span>In-game exposure</span><i aria-hidden="true"></i></div>
+          </div>
+          <section class="system-node system-operator">
+            <img src="assets/map-operator.webp" width="320" height="320" alt="">
+            <div><h3>WeChoose</h3><p>Runs the game and funds discounts.</p></div>
+          </section>
+          <div class="system-exchange system-store-flows" role="group" aria-label="The supermarket pays WeChoose a service fee on eligible sales. WeChoose helps the supermarket sell slow-moving products.">
+            <div class="system-flow flow-to-left"><span>Sales service fee</span><i aria-hidden="true"></i></div>
+            <div class="system-flow system-value"><span>Help sell slow-moving stock</span><i aria-hidden="true"></i></div>
+          </div>
+          <section class="system-node system-store">
+            <img src="assets/map-store.webp" width="320" height="320" alt="">
+            <div><h3>Supermarket</h3><p>Provides play space.</p></div>
+            <button class="system-open" type="button" aria-label="View supermarket details" aria-controls="system-store-detail" aria-expanded="false" data-system-open hidden>
+              <span aria-hidden="true">Details ↗</span>
+            </button>
+          </section>
+        </div>
+        <div class="system-promotion">
+          <div>
+            <p class="eyebrow">WeChoose marketing costs</p>
+            <p>Influencer store visits and shopper check-ins</p>
+          </div>
+          <span aria-hidden="true">→</span>
+          <strong>Bring new shoppers into the store</strong>
+        </div>
+      </div>
+      <section class="chapter-content system-view system-detail" id="system-customer-detail" aria-labelledby="system-customer-title" hidden>
+        <div class="system-surface" aria-hidden="true"></div>
+        <header class="chapter-head">
+          <div class="system-detail-bar">
+            <div class="system-identity">
+              <img src="assets/map-friends.webp" width="320" height="320" alt="">
+              <p>Customers</p>
+            </div>
+            <button type="button" class="system-back" data-system-reveal="0"><span aria-hidden="true">← </span>Back to network</button>
+          </div>
+          <h2 id="system-customer-title" data-system-reveal="0">Play together. <em>Save on your picks.</em></h2>
+        </header>
+        <div class="partner-layout customer-layout">
+          <figure class="customer-experience" data-system-reveal="1">
+            <img src="assets/story-match.webp" width="750" height="500" alt="Two friends with a phone and a bag of popcorn in the snack aisle">
+            <figcaption>
+              <h3>Two friends, one challenge</h3>
+              <p>Guess your friend’s pick, solve the Shelf Puzzle together, and choose what to take home.</p>
+            </figcaption>
+          </figure>
+          <section class="customer-checkout" aria-labelledby="customer-checkout-title" data-system-reveal="2">
+            <header>
+              <h3 id="customer-checkout-title">Example checkout</h3>
+              <p>Popcorn + shortbread</p>
+            </header>
+            <dl class="customer-receipt">
+              <div><dt>Regular item price</dt><dd>¥33.80</dd></div>
+              <div><dt>Items with 58% earned discount</dt><dd>¥14.20</dd></div>
+              <div><dt>Challenge fee for the pair</dt><dd>+¥2.00</dd></div>
+              <div class="customer-total"><dt>Total paid</dt><dd>¥16.20</dd></div>
+            </dl>
+            <p class="customer-saving"><strong>¥17.60 saved</strong> after the challenge fee</p>
+          </section>
+        </div>
+      </section>
+      <section class="chapter-content system-view system-detail" id="system-store-detail" aria-labelledby="system-store-title" hidden>
+        <div class="system-surface" aria-hidden="true"></div>
+        <header class="chapter-head">
+          <div class="system-detail-bar">
+            <div class="system-identity">
+              <img src="assets/map-store.webp" width="320" height="320" alt="">
+              <p>Supermarket</p>
+            </div>
+            <button type="button" class="system-back" data-system-reveal="0"><span aria-hidden="true">← </span>Back to network</button>
+          </div>
+          <h2 id="system-store-title" data-system-reveal="0">Help sell <em>slow-moving stock.</em></h2>
+        </header>
+        <div class="partner-layout" data-system-reveal="1">
+          <figure class="store-puzzle">
+            <div class="store-puzzle-photo"><img src="assets/shelf-puzzle-shortbread.webp" width="432" height="164" alt="A pack of shortbread cookies"></div>
+            <figcaption>
+              <h3>Shelf Puzzle</h3>
+              <p>WeChoose builds a puzzle around a slow-moving snack already on the shelf. Friends solve two clues and decide whether to buy.</p>
+            </figcaption>
+          </figure>
+          <section class="partner-terms" aria-labelledby="store-split-title">
+            <div class="partner-terms-heading">
+              <div><h3 id="store-split-title">One pack sold</h3><p>¥11 shelf price − ¥1 game discount</p></div>
+              <strong>¥10</strong>
+            </div>
+            <div class="partner-meter" style="--partner-share:85%" aria-hidden="true"></div>
+            <dl class="partner-split">
+              <div><dt>Supermarket · 85%</dt><dd>¥8.50</dd></div>
+              <div><dt>WeChoose fee · 15%</dt><dd>¥1.50</dd></div>
+            </dl>
+            <p class="partner-note">WeChoose covers the full ¥1 discount. The store receives ¥9.50 before stock cost. WeChoose keeps ¥0.50 after funding the discount.</p>
+          </section>
+        </div>
+        <section class="store-recovery" aria-labelledby="store-recovery-title" data-system-reveal="2">
+          <div class="store-recovery-head">
+            <h3 id="store-recovery-title">Cash recovered per pack</h3>
+            <p>Illustrative comparison for the same stock sold.</p>
+          </div>
+          <dl>
+            <div><dt>Clearance assumption</dt><dd>¥5.00</dd></div>
+            <div><dt>With WeChoose</dt><dd>¥9.50</dd></div>
+            <div class="store-recovery-gain"><dt>Extra cash recovered</dt><dd>+¥4.50</dd></div>
+          </dl>
+        </section>
+        <aside class="store-reference" aria-label="Retail reference" data-system-reveal="3">
+          <p>In 2025, six Nature’s Emporium stores sold <strong>about 40%</strong> of the surplus groceries they listed on Flashfood, measured by listed value.</p>
+          <a href="https://hub.flashfood.com/case-study_natures-emporium" target="_blank" rel="noopener">Flashfood case study <span aria-hidden="true">↗</span></a>
+        </aside>
+      </section>
+      <section class="chapter-content system-view system-detail brand-detail" id="system-brand-detail" aria-labelledby="system-brand-title" hidden>
+        <div class="system-surface" aria-hidden="true"></div>
+        <header class="system-detail-bar">
+          <div class="system-identity">
+            <img src="assets/map-brands.webp" width="320" height="320" alt="">
+            <p>Food brands</p>
+          </div>
+          <button type="button" class="system-back" data-system-reveal="0"><span aria-hidden="true">← </span>Back to network</button>
+        </header>
+        <div class="brand-scroll" role="region" aria-label="Food brand partnerships and pricing" tabindex="0" data-detail-scroll>
+          <section class="brand-page" id="brand-partnerships" aria-labelledby="system-brand-title">
+            <header class="brand-intro" data-system-reveal="0">
+              <h2 class="brand-title" id="system-brand-title" tabindex="-1">Two brand <em>partnership options.</em></h2>
+              <p>A food brand can buy one of five product spots or sponsor the whole question.</p>
+            </header>
+            <div class="placement-examples">
+              <figure class="placement-example placement-single" data-system-reveal="1">
+                <figcaption>
+                  <h3>One product spot</h3>
+                  <span>1 of 5 choices</span>
+                </figcaption>
+                <div class="placement-scene" role="img" aria-label="Complete Movie Night question with popcorn, chocolate mints, peanut butter cups, chocolate and gummies. Popcorn carries a Sponsored label and has a matching WeChoose tag on the shelf.">
+                  <div class="placement-phone" aria-hidden="true">
+                    <div class="placement-status"><span>9:41</span><i></i></div>
+                    <div class="placement-appbar"><img src="assets/wechoose-final.png" width="2208" height="382" alt=""></div>
+                    <div class="placement-discount"><span>Zone A · Snacks</span><strong>0%</strong></div>
+                    <div class="placement-question-body">
+                      <div class="placement-rounds"><span>Q1 ✓</span><strong>Q2</strong><span>Q3</span></div>
+                      <p class="placement-question">What’s your go-to movie snack?</p>
+                      <ul class="placement-options">
+                        <li class="featured-choice">
+                          <b class="placement-featured">Sponsored</b>
+                          <img src="assets/brand-placement/movie-popcorn.webp" alt="">
+                          <span>Popcorn</span>
+                        </li>
+                        <li><img src="assets/brand-placement/movie-mints.webp" alt=""><span>Chocolate mints</span></li>
+                        <li><img src="assets/brand-placement/movie-peanut-butter-cups.webp" alt=""><span>Peanut butter cups</span></li>
+                        <li><img src="assets/brand-placement/movie-chocolate.webp" alt=""><span>Chocolate</span></li>
+                        <li><img src="assets/brand-placement/movie-gummy.webp" alt=""><span>Gummies</span></li>
+                      </ul>
+                    </div>
+                    <div class="placement-phone-actions"><strong>Lock in</strong><span>Skip question</span></div>
+                  </div>
+                  <span class="placement-arrow" aria-hidden="true">→</span>
+                  <div class="placement-shelf" aria-hidden="true">
+                    <div class="placement-stock">
+                      <img src="assets/brand-placement/movie-chocolate.webp" alt="">
+                      <img src="assets/brand-placement/movie-gummy.webp" alt="">
+                      <img src="assets/brand-placement/movie-popcorn.webp" alt="">
+                      <img src="assets/brand-placement/movie-mints.webp" alt="">
+                      <img src="assets/brand-placement/movie-peanut-butter-cups.webp" alt="">
+                    </div>
+                    <div class="placement-rail"><i></i><i></i><i class="placement-shelf-featured"></i><i></i><i></i></div>
+                    <div class="placement-tag">Featured in<br>WeChoose</div>
+                  </div>
+                </div>
+              </figure>
+              <figure class="placement-example placement-sponsored" data-system-reveal="2">
+                <figcaption>
+                  <h3>Whole question</h3>
+                  <span>All 5 from one brand</span>
+                </figcaption>
+                <div class="placement-scene" role="img" aria-label="The phone shows a Lay’s question with five different flavours. All five are grouped on one shelf, with a shared Lay’s Flavour Challenge sign along the shelf edge.">
+                  <div class="placement-phone" aria-hidden="true">
+                    <div class="placement-status"><span>9:41</span><i></i></div>
+                    <div class="placement-appbar"><img src="assets/wechoose-final.png" width="2208" height="382" alt=""></div>
+                    <div class="placement-discount"><span>Zone A · Snacks</span><strong>0%</strong></div>
+                    <div class="placement-question-body">
+                      <div class="placement-rounds"><strong>Q1</strong><span>Q2</span><span>Q3</span></div>
+                      <p class="placement-question">Which Lay’s flavour would you try?</p>
+                      <ul class="placement-options">
+                        <li><img src="assets/brand-placement/lays-bacon-grilled-cheese.webp" alt=""><span>Bacon grilled cheese</span></li>
+                        <li><img src="assets/brand-placement/lays-valentina-lime.webp" alt=""><span>Valentina &amp; lime</span></li>
+                        <li><img src="assets/brand-placement/lays-korean-fried-chicken.webp" alt=""><span>Korean fried chicken</span></li>
+                        <li><img src="assets/brand-placement/lays-dill-pickle.webp" alt=""><span>Dill pickle</span></li>
+                        <li><img src="assets/brand-placement/lays-honey-bbq.webp" alt=""><span>Honey BBQ</span></li>
+                      </ul>
+                    </div>
+                    <div class="placement-phone-actions"><strong>Lock in</strong><span>Skip question</span></div>
+                  </div>
+                  <span class="placement-arrow" aria-hidden="true">→</span>
+                  <div class="placement-shelf" aria-hidden="true">
+                    <div class="placement-stock">
+                      <img src="assets/brand-placement/lays-bacon-grilled-cheese.webp" alt="">
+                      <img src="assets/brand-placement/lays-valentina-lime.webp" alt="">
+                      <img src="assets/brand-placement/lays-korean-fried-chicken.webp" alt="">
+                      <img src="assets/brand-placement/lays-dill-pickle.webp" alt="">
+                      <img src="assets/brand-placement/lays-honey-bbq.webp" alt="">
+                    </div>
+                    <div class="placement-rail"><i></i><i></i><i></i><i></i><i></i></div>
+                    <div class="placement-tag">WeChoose × Lay’s<br>Flavour Challenge</div>
+                  </div>
+                </div>
+              </figure>
+            </div>
+            <footer class="brand-next" data-system-reveal="3">
+              <button type="button" class="detail-scroll-button" aria-controls="brand-pricing" data-detail-jump>Pricing &amp; costs <span aria-hidden="true">↓</span></button>
+            </footer>
+          </section>
+          <section class="brand-page brand-pricing" id="brand-pricing" aria-labelledby="brand-pricing-title" data-system-reveal="3">
+            <header class="brand-pricing-head">
+              <div>
+                <h3 id="brand-pricing-title" tabindex="-1">Pricing &amp; costs</h3>
+                <p>Pilot quotes · One store · Four weeks</p>
+              </div>
+              <button type="button" class="detail-scroll-button" aria-controls="brand-partnerships" data-detail-jump><span aria-hidden="true">↑ </span>Partnership options</button>
+            </header>
+            <dl class="brand-quotes">
+              <div><dt>One product spot</dt><dd>¥1,500</dd></div>
+              <div><dt>Whole question</dt><dd>¥2,500</dd></div>
+            </dl>
+            <div class="brand-costs" role="group" aria-label="Placement costs to track">
+              <div><strong>At launch</strong><p>Set up the question and product options. Prepare shelf tags if used.</p></div>
+              <div><strong>During the pilot</strong><p>Check the placement and prepare the brand’s results.</p></div>
+            </div>
+            <p class="brand-fee"><strong>Both fees go to WeChoose.</strong> The whole question and the single option can be booked on different questions in the same month.</p>
+            <section class="brand-references" aria-labelledby="brand-references-title">
+              <h4 id="brand-references-title">Public references</h4>
+              <div class="brand-reference-grid">
+                <div>
+                  <a href="https://hwggh.com/dt/ggh_cs1.html" target="_blank" rel="noopener">Checkout display rate card <span aria-hidden="true">↗</span></a>
+                  <p class="brand-reference-price"><strong>¥980</strong> per display · four weeks</p>
+                  <p>Tier 2 cities · Multi-unit orders</p>
+                </div>
+                <div>
+                  <a href="https://static.cninfo.com.cn/finalpage/2020-07-21/1208051937.PDF" target="_blank" rel="noopener">Ganyuan Foods 2020 prospectus <span aria-hidden="true">↗</span></a>
+                  <p>Shelf-end display subsidies · Duration unspecified</p>
+                  <dl class="brand-endcap-ranges">
+                    <div><dt>Large supermarkets</dt><dd>¥500–1,500</dd></div>
+                    <div><dt>Hypermarkets</dt><dd>¥1,500–3,000</dd></div>
+                  </dl>
+                </div>
+              </div>
+            </section>
+          </section>
+        </div>
+      </section>
+    </article>
+  </section>
+
+  <section class="stage" id="business" aria-labelledby="title-business">
+    <span class="slide-anchor" id="economics" aria-hidden="true"></span>
+    <article class="slide chapter business">
+      <div class="chapter-content system-view business-overview" data-slide-overview>
+        <header class="chapter-head enter">
+          <p class="eyebrow section-name"><span></span> Monthly economics</p>
+          <h2 id="title-business">One store, <em>one month.</em></h2>
+        </header>
+        <div class="business-options enter">
+          <section class="business-option revenue-option" aria-labelledby="revenue-option-title">
+            <h3 id="revenue-option-title">Revenue</h3>
+            <strong>¥7,600</strong>
+            <p>Monthly example with both brand bookings. ¥3,600 before brand fees.</p>
+            <button class="system-open" type="button" aria-label="View revenue breakdown" aria-controls="business-revenue-detail" aria-expanded="false" data-system-open hidden>
+              <span aria-hidden="true">Details ↗</span>
+            </button>
+          </section>
+          <section class="business-option" aria-labelledby="budget-option-title">
+            <h3 id="budget-option-title">Costs &amp; budget</h3>
+            <strong><small>About</small> ¥3,500</strong>
+            <p>Influencer visits, shopper check-ins and WeChoose-funded game discounts.</p>
+            <button class="system-open" type="button" aria-label="View costs and budget" aria-controls="business-budget-detail" aria-expanded="false" data-system-open hidden>
+              <span aria-hidden="true">Details ↗</span>
+            </button>
+          </section>
+        </div>
+        <p class="business-context">Illustrative base month · 2% of existing visits · 600 paid pairs</p>
+      </div>
+      <section class="chapter-content system-view system-detail business-detail" id="business-revenue-detail" aria-labelledby="business-revenue-label" hidden>
+        <div class="system-surface" aria-hidden="true"></div>
+        <header class="system-detail-bar">
+          <div class="system-identity"><p id="business-revenue-label">Revenue</p></div>
+          <button type="button" class="system-back" data-system-reveal="0"><span aria-hidden="true">← </span>Back to overview</button>
+        </header>
+        <div class="business-scroll revenue-scroll" role="region" aria-label="Footfall and revenue details" tabindex="0" data-detail-scroll>
+          <section class="revenue-page traffic-page" id="monthly-traffic" aria-labelledby="business-revenue-title">
+            <header class="revenue-page-head" data-system-reveal="0">
+              <h2 id="business-revenue-title" tabindex="-1">From footfall <em>to paid play.</em></h2>
+              <button type="button" class="detail-scroll-button" aria-controls="monthly-receipts" data-detail-jump>Revenue breakdown <span aria-hidden="true">↓</span></button>
+            </header>
+            <figure class="footfall-figure" aria-labelledby="footfall-title" data-system-reveal="1">
+              <h3 id="footfall-title">Estimating 60,000 visits a month</h3>
+              <div class="footfall-chain">
+                <div class="footfall-step footfall-sample">
+                  <h4>Observed · Shenzhen Olé</h4>
+                  <strong class="footfall-number">388<span> entries</span></strong>
+                  <div class="sample-intervals" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+                  <p>80 min on a weekend afternoon<br>≈290 entries/hour</p>
+                  <div class="footfall-links">
+                    <a href="https://pdf.dfcfw.com/pdf/H3_AP202007281394714562_1.pdf#page=49" target="_blank" rel="noopener">Counts · p. 49 <span aria-hidden="true">↗</span></a>
+                    <a href="https://pdf.dfcfw.com/pdf/H3_AP202007281394714562_1.pdf#page=41" target="_blank" rel="noopener">Method · p. 41 <span aria-hidden="true">↗</span></a>
+                  </div>
+                </div>
+                <span class="footfall-arrow" aria-hidden="true">→</span>
+                <div class="footfall-step footfall-assumptions">
+                  <h4>Assumed · Wenzhou pilot</h4>
+                  <div class="footfall-equation">
+                    <div><strong>120–220</strong><span>entries/hour</span></div>
+                    <span aria-hidden="true">×</span>
+                    <div><strong>12</strong><span>hours/day</span></div>
+                    <span aria-hidden="true">×</span>
+                    <div><strong>30</strong><span>days</span></div>
+                  </div>
+                  <p>Lower average across opening hours</p>
+                </div>
+                <span class="footfall-arrow" aria-hidden="true">→</span>
+                <div class="footfall-step footfall-result">
+                  <h4>Estimate · Wenzhou Olé</h4>
+                  <strong class="footfall-number">≈60,000</strong>
+                  <p>visits/month · rounded midpoint</p>
+                  <div class="footfall-range" role="img" aria-label="Estimated range of about 43,000 to 79,000 visits per month">
+                    <div class="footfall-range-track" aria-hidden="true"><i></i></div>
+                    <div class="footfall-range-labels" aria-hidden="true"><span>≈43k</span><span>≈79k</span></div>
+                  </div>
+                </div>
+              </div>
+              <figcaption>LeadLeo, 2020 · Shenzhen MixC World grocery-area sample. Wenzhou estimate pending the store’s own entry counts.</figcaption>
+            </figure>
+            <section class="monthly-volume" aria-labelledby="volume-title" data-system-reveal="2">
+              <h3 id="volume-title">Base month · from visits to paid pairs</h3>
+              <div class="paid-rate-basis" role="group" aria-label="Retail references and the WeChoose paid-play assumption">
+                <div>
+                  <strong>≈2.4%</strong>
+                  <p>Mall maze completions<a href="https://icsc.secure-platform.com/a/gallery/rounds/20/details/3744" target="_blank" rel="noopener">ICSC · ≈3,000 / 122,535 visits <span aria-hidden="true">↗</span></a></p>
+                </div>
+                <div>
+                  <strong>≈5%</strong>
+                  <p>Mall anniversary participants<a href="https://biz.ifeng.com/c/81RniOhvKiJ" target="_blank" rel="noopener">MixC · 10,088 / 200,000+ visits <span aria-hidden="true">↗</span></a></p>
+                </div>
+                <div class="paid-rate-trial">
+                  <strong>2%</strong>
+                  <p>WeChoose paid-play assumption<span>2 paying players per 100 existing visits · ¥2 per pair</span></p>
+                </div>
+              </div>
+              <dl class="monthly-volumes">
+                <div>
+                  <dt>Paying players</dt>
+                  <dd><strong>1,200</strong><span>60,000 visits × 2%</span></dd>
+                </div>
+                <div class="volume-total">
+                  <dt>Paid pairs</dt>
+                  <dd><strong>600</strong><span>Two players per pair</span></dd>
+                </div>
+                <div class="volume-entry">
+                  <dt>Challenge fees</dt>
+                  <dd><strong>¥1,200</strong><span>600 pairs × ¥2</span></dd>
+                </div>
+              </dl>
+              <p class="volume-online-example"><strong>Track new visits.</strong> Link influencer posts and shopper shares to checkout. Compare visits with a typical period.</p>
+            </section>
+          </section>
+          <section class="revenue-page receipts-page" id="monthly-receipts" aria-labelledby="receipts-title">
+            <header class="revenue-page-head">
+              <h2 id="receipts-title" tabindex="-1">Three sources <em>of revenue.</em></h2>
+              <button type="button" class="detail-scroll-button" aria-controls="monthly-traffic" data-detail-jump><span aria-hidden="true">↑ </span>Footfall &amp; paid play</button>
+            </header>
+            <div class="business-ledger revenue-content">
+              <section class="monthly-revenue" aria-labelledby="revenue-title">
+                <h3 id="revenue-title">WeChoose revenue · base-month example</h3>
+                <dl class="monthly-lines revenue-lines">
+                  <div>
+                    <dt>Challenge fees<span>600 paid pairs × ¥2 to WeChoose</span></dt><dd>¥1,200</dd>
+                  </div>
+                  <div>
+                    <dt>Sales service fees<span>¥16,000 in eligible payments after discounts × 15%</span></dt><dd>¥2,400</dd>
+                  </div>
+                  <div>
+                    <dt>Whole-question sponsorship<span>One brand books the full question</span></dt><dd>¥2,500</dd>
+                  </div>
+                  <div>
+                    <dt>Single product spot<span>A second brand books one option in another question</span></dt><dd>¥1,500</dd>
+                  </div>
+                  <div class="monthly-total">
+                    <dt>Total with both bookings<span>¥4,000 in brand fees in the same month</span></dt><dd>¥7,600</dd>
+                  </div>
+                </dl>
+                <p class="monthly-terms">Both bookings are assumed. Actual sales fees follow eligible payments on receipts.</p>
+              </section>
+              <section class="monthly-scenarios" aria-labelledby="scenario-title">
+                <div>
+                  <h3 id="scenario-title">Monthly revenue scenarios</h3>
+                  <p>Before brand bookings, at the same average eligible spend per paid pair.</p>
+                </div>
+                <dl>
+                  <div style="--revenue-share:16.67%">
+                    <dt>Low · 0.5%<span>150 paid pairs</span></dt><dd>¥900</dd>
+                  </div>
+                  <div class="monthly-base" style="--revenue-share:66.67%">
+                    <dt>Base · 2%<span>600 paid pairs</span></dt><dd>¥3,600</dd>
+                  </div>
+                  <div style="--revenue-share:100%">
+                    <dt>High · 3%<span>900 paid pairs</span></dt><dd>¥5,400</dd>
+                  </div>
+                </dl>
+              </section>
+            </div>
+            <aside class="monthly-sources monthly-revenue-sources" id="revenue-sources" aria-labelledby="revenue-sources-title">
+              <h3 id="revenue-sources-title">Public references</h3>
+              <div class="monthly-source-grid">
+                <div>
+                  <p><strong>¥500–1,500</strong> in endcap subsidies for large supermarkets. Duration unspecified.</p>
+                  <a href="https://static.cninfo.com.cn/finalpage/2020-07-21/1208051937.PDF#page=137" target="_blank" rel="noopener">Ganyuan prospectus · p. 137 <span aria-hidden="true">↗</span></a>
+                </div>
+              </div>
+            </aside>
+          </section>
+        </div>
+      </section>
+      <section class="chapter-content system-view system-detail business-detail" id="business-budget-detail" aria-labelledby="business-budget-title" hidden>
+        <div class="system-surface" aria-hidden="true"></div>
+        <header class="chapter-head">
+          <div class="system-detail-bar">
+            <div class="system-identity"><p>Costs &amp; budget</p></div>
+            <button type="button" class="system-back" data-system-reveal="0"><span aria-hidden="true">← </span>Back to overview</button>
+          </div>
+          <h2 id="business-budget-title" data-system-reveal="0">Where the <em>budget goes.</em></h2>
+        </header>
+        <div class="business-scroll" role="region" aria-label="Budget estimates and sources" tabindex="0" data-detail-scroll>
+          <div class="business-ledger budget-content">
+            <section class="monthly-budget" aria-labelledby="cost-title" data-system-reveal="1">
+              <header class="monthly-card-head">
+                <h3 id="cost-title">Monthly costs · about ¥3,500</h3>
+                <button type="button" class="detail-scroll-button" aria-controls="budget-basis" data-detail-jump>Order example <span aria-hidden="true">↓</span></button>
+              </header>
+              <dl class="monthly-lines monthly-costs">
+                <div><dt>Promotion<span>2 influencer visit posts × ¥700. 25 Xiaohongshu or Douyin check-in vouchers × ¥5.</span></dt><dd>¥1,525</dd></div>
+                <div><dt>Game discounts paid by WeChoose<span>¥16,000 in eligible payments × (¥5 savings ÷ ¥41 paid)</span></dt><dd>About ¥1,951</dd></div>
+              </dl>
+              <p class="monthly-funding">The supermarket provides space for the game. WeChoose reimburses the full game discount shown on each eligible receipt.</p>
+            </section>
+            <section class="monthly-balances" aria-labelledby="balance-title" data-system-reveal="2">
+              <h3 id="balance-title">Revenue less listed costs</h3>
+              <dl class="monthly-lines">
+                <div>
+                  <dt>Before any brand booking<span>¥3,600 revenue − ¥3,476 in listed costs</span></dt><dd>≈¥124</dd>
+                </div>
+                <div>
+                  <dt>With both brand bookings<span>¥7,600 revenue − ¥3,476 in listed costs</span></dt><dd>≈¥4,124</dd>
+                </div>
+              </dl>
+              <p class="monthly-funding"><strong>Fund the offer before play.</strong> Cap regular discounts at ¥8 per pair and keep each discount within that order’s sales fee.</p>
+              <p class="monthly-funding">Free-order prizes use separate prepaid brand funding.</p>
+            </section>
+          </div>
+          <aside class="monthly-sources monthly-budget-sources" id="budget-basis" aria-labelledby="budget-basis-title" data-system-reveal="3">
+            <h3 id="budget-basis-title" tabindex="-1">One order, one discount payer</h3>
+            <p class="monthly-subsidy-math">¥46 − ¥5 game discount = ¥41 paid</p>
+            <div class="monthly-source-grid">
+              <div>
+                <p><strong>Supermarket.</strong> It receives 85% of ¥41 plus ¥5 from WeChoose, or ¥39.85. Stock costs ¥37.26 in this 19%-margin example.</p>
+                <a href="https://static.cninfo.com.cn/finalpage/2026-04-17/1225113031.PDF#page=14" target="_blank" rel="noopener">Yonghui · 18.72% category margin <span aria-hidden="true">↗</span></a>
+              </div>
+              <div>
+                <p><strong>WeChoose.</strong> 15% of ¥41 minus the ¥5 discount leaves ¥1.15 from the sale. The ¥2 pair fee is separate.</p>
+                <p>Use the full basket to measure the value of verified new visits.</p>
+                <a href="https://static.cninfo.com.cn/finalpage/2026-05-01/1225273502.PDF#page=28" target="_blank" rel="noopener">Yonghui · ¥86 basket reference <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </article>
+  </section>
+
+  <section class="stage" id="closing" aria-labelledby="title-closing">
+    <article class="slide closing">
+      <div class="closing-frame">
+        <div class="closing-copy enter">
+          <img class="closing-logo" src="assets/wechoose-final.png" width="2208" height="382" alt="WeChoose">
+          <h2 id="title-closing">See you<br><em>in the aisle.</em></h2>
+          <p>A new thing to do together, right in the supermarket.</p>
+        </div>
+        <figure class="closing-scene enter">
+          <div aria-hidden="true"></div>
+          <img src="assets/closing-diorama.webp" width="1320" height="880" alt="The two miniature friends high-five after checkout, with popcorn and shortbread in their bag">
+        </figure>
+      </div>
+    </article>
+  </section>
+</main>
+
+<footer class="pager" aria-label="Slide controls">
+  <button id="previous" type="button" aria-label="Previous slide" title="Previous slide">←</button>
+  <output id="counter" aria-live="polite">1 / 14</output>
+  <button id="next" type="button" aria-label="Next slide" title="Next slide">→</button>
+</footer>
+</body>
+</html>
