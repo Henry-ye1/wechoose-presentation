@@ -1,7 +1,5 @@
 # WeChoose Presentation
 
-An interactive presentation for the WeChoose supermarket service design project.
+View the interactive slides and animated demos. [Open the presentation](https://wechoose-presentation.yehaoy.chatgpt.site/)
 
-View the slides, storyboards, and animated phone demos online. [Open the presentation](https://wechoose-presentation.yehaoy.chatgpt.site/)
-
-For offline viewing, download the repository as a ZIP, extract it, and open `index.html`.
+To save an offline copy, download [WeChoose-Website.zip](./WeChoose-Website.zip), extract it, and open `index.html`. The ZIP contains the website, images, fonts, and all five demo videos.
